@@ -1,0 +1,36 @@
+<launch>
+    <arg name="debug" default="false"/>
+    <arg name="debug_valgrind" default="false"/>
+    <arg name="prefix" value="" unless="$(arg debug)"/>
+    <arg name="prefix" value="gdb -ex run --args" if="$(arg debug)"/>
+
+    <arg name="test" default="slplanner_voxelmap"/>
+
+    <node pkg="experiment_demo" type="slplanner_voxelmap" name="slplanner_voxelmap_node" launch-prefix="$(arg prefix)" output="screen">
+
+        <param name="benchmark" value="$(find experiment_demo)/maps/"/>
+        <param name="mapname" value="simple/simple.bag"/>
+        <param name="topicname" value="/voxel_map"/>
+
+        <param name="parameterpath" value="$(find experiment_demo)/config/parameter_voxelmap.yaml"/>
+
+        <!-- Set start and goal -->
+        <param name="goal_x" value="2.4"/>
+        <param name="goal_y" value="16.6"/>
+        <param name="goal_z" value="0.05"/>
+
+        <param name="start_x" value="14.5"/>
+        <param name="start_y" value="4.5"/>
+        <param name="start_z" value="0.05"/>
+
+    </node>
+
+    <!-- <node pkg="planning_ros_utils" name="trajectory_extractor" type="trajectory_extractor_node" output="screen">
+        <remap from="~trajectory" to="test_primitive/trajectory_refined"/>
+        <param name="file" value="$(find mpl_test_node)/launch/map_planner_node/trajectory_command.bag"/>
+        <param name="topic" value="command"/>
+    </node> -->
+
+    <node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find experiment_demo)/launch/$(arg test)/test.rviz"/>
+
+</launch>

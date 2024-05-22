@@ -1,0 +1,61 @@
+agents:
+  - start: [ 27.8, -2.0, 3.14 ]
+    name: agent0
+    goal: [ 37.1, -0.1, 2.09 ]
+  - start: [ 9.8, 1.4, 0.79 ]
+    name: agent1
+    goal: [ 36.4, -0.2, 0.79 ]
+  - start: [ 32.4, -3.8, 3.14 ]
+    name: agent2
+    goal: [ 11.1, 1.7, -0.52 ]
+  - start: [ 1.4, -4.0, 0.52 ]
+    name: agent3
+    goal: [ 21.9, -3.8, 0.52 ]
+  - start: [ 18.7, 2.2, 0.0 ]
+    name: agent4
+    goal: [ 24.6, 0.1, -1.57 ]
+  - start: [ 12.5, -1.7, -2.62 ]
+    name: agent5
+    goal: [ 23.1, 0.6, 0.0 ]
+  - start: [ 30.9, -2.0, 0.0 ]
+    name: agent6
+    goal: [ 13.1, -4.4, -2.36 ]
+  - start: [ 13.2, 2.3, -1.05 ]
+    name: agent7
+    goal: [ 39.4, 1.7, 3.14 ]
+  - start: [ 26.4, 0.7, -2.09 ]
+    name: agent8
+    goal: [ 14.0, 2.0, 1.05 ]
+  - start: [ 7.4, 0.9, -1.57 ]
+    name: agent9
+    goal: [ 1.5, -3.0, 0.0 ]
+  - start: [ 31.0, -1.0, -0.52 ]
+    name: agent10
+    goal: [ 16.2, -1.5, -0.79 ]
+  - start: [ 18.3, -1.0, 0.79 ]
+    name: agent11
+    goal: [ 15.2, -2.6, 0.0 ]
+  - start: [ 39.5, 4.6, 1.57 ]
+    name: agent12
+    goal: [ 25.4, -2.3, 0.52 ]
+  - start: [ 18.5, 3.9, -2.09 ]
+    name: agent13
+    goal: [ 23.6, -1.0, -1.57 ]
+  - start: [ 34.1, 0.1, 1.57 ]
+    name: agent14
+    goal: [ 33.1, -3.7, 2.62 ]
+  - start: [ 15.9, -3.2, 1.05 ]
+    name: agent15
+    goal: [ 23.5, -2.9, 0.52 ]
+  - start: [ 15.7, 0.9, 0.0 ]
+    name: agent16
+    goal: [ 31.9, 1.9, 1.57 ]
+  - start: [ 15.5, 0.5, 0.52 ]
+    name: agent17
+    goal: [ 29.2, -3.8, 1.57 ]
+  - start: [ 32.9, 4.5, 0.52 ]
+    name: agent18
+    goal: [ 24.4, -2.3, -0.52 ]
+  - start: [ 32.7, -0.8, 0.0 ]
+    name: agent19
+    goal: [ 37.7, -3.2, 2.62 ]

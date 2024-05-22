@@ -1,0 +1,16 @@
+<launch>
+    
+    <node pkg="slplanner_plus" type="batchtest_slplanner_demo_corridor_with_yaw" name="batchtest_slplanner_demo_corridor_with_yaw_node" output="screen" cwd="node">
+        
+        <param name="benchmark" type="string" value="$(find slplanner_plus)/instances/benchmark/" />
+
+        <param name="mapname" type="string" value="corridor" />
+
+        <!-- <param name="parameterpath" type="string" value="$(find slplanner_plus)/config/parameter_corridor_with_yaw.yaml" /> -->
+        <param name="parameterpath" type="string" value="$(find slplanner_plus)/config/parameter_corridor_with_yaw_penalty.yaml" />
+
+        <param name="solutionspath" type="string" value="$(find slplanner_plus)/instances/result/" />
+
+    </node>
+
+</launch>

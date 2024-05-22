@@ -1,0 +1,6 @@
+
+slplanner_plus/：
+$ python3 test/visualize.py -m mappath -s resultpath
+
+
+python3 test/visualize.py -m ./instances/clcbsbenchmark/map50by50/agents5/obstacle/map_50by50_obst25_agents5_ex0.yaml -s ./instances/result/map_50by50_obst25_agents5_ex0_result.yaml

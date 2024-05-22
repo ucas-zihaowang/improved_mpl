@@ -1,0 +1,11 @@
+<launch>
+    
+    <node pkg="slplanner_plus" type="test_slplanner_demo_by_tmpmap" name="test_slplanner_demo_by_tmpmap_node" output="screen" cwd="node">
+
+        <param name="parameterpath" type="string" value="$(find slplanner_plus)/config/parameter_tmpmap.yaml" />
+
+        <param name="solutionspath" type="string" value="$(find slplanner_plus)/instances/result/" />
+
+    </node>
+
+</launch>

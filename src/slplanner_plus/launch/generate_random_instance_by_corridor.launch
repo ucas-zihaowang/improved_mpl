@@ -1,0 +1,11 @@
+<launch>
+    
+    <node pkg="slplanner_plus" type="generate_random_instance_by_corridor" name="generate_random_instance_by_corridor_node" output="screen">
+        
+        <param name="benchmark" type="string" value="$(find slplanner_plus)/instances/benchmark/" />
+
+        <param name="mapname" type="string" value="corridor" />
+
+    </node>
+
+</launch>
