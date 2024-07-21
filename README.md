@@ -12,8 +12,22 @@ To improve the computational efficiency of this method, we focus on the motion p
 
 - propose a novel motion primitive collision detection method with linear complexity based on Sturm's Theor In structured obstacle environments
 
-## Install
+## Installation
+
+Prerequisite:
+
+'''
+sudo apt install -y libeigen3-dev libyaml-cpp-dev libproj-dev libopencv-dev cmake
+'''
+
+Running Environment:
+
+- ubuntu 20
+
+- ros noetic
 
 ## Usage
+
+
 
 ## Acknowledgment
