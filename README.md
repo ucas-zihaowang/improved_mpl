@@ -14,20 +14,28 @@ To improve the computational efficiency of this method, we focus on the motion p
 
 ## Installation
 
-Prerequisite:
-
-'''
-sudo apt install -y libeigen3-dev libyaml-cpp-dev libproj-dev libopencv-dev cmake
-'''
-
 Running Environment:
 
 - ubuntu 20
 
 - ros noetic
 
+
+Prerequisite:
+
+```
+sudo apt install -y libeigen3-dev libyaml-cpp-dev libproj-dev libopencv-dev cmake
+```
+
+
 ## Usage
 
 
 
 ## Acknowledgment
+
+Our project refers to the following work, and we point out their contributions here.
+
+[motion_primitive_library](https://github.com/sikang/motion_primitive_library.git)
+
+[mpl_ros](https://github.com/sikang/mpl_ros.git)
