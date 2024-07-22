@@ -28,7 +28,7 @@ sudo apt install -y libeigen3-dev libyaml-cpp-dev libopencv-dev cmake
 
 ## Usage
 
-
+### Step 1
 
 ## Acknowledgment
 
