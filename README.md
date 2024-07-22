@@ -12,6 +12,10 @@ To improve the computational efficiency of this method, we focus on the motion p
 
 - propose a novel collision detection method with linear complexity based on Sturm's Theory In structured obstacle environments
 
+## Version
+
+- [Stable Version] Although this is a stable version, but may exists bugs. If you find them, please contacts authots by emails: wangzihao191@mails.ucas.edu.cn
+
 ## Installation
 
 ### Running Environment:
@@ -61,9 +65,13 @@ roslaunch slplanner_plus test_slplanner_demo_by_corridor_with_yaw_penalty.launch
 ```
 
 - others
+
 experiment_demo: can visualize the instances by rviz
+
 slplanner_plus: different map
+
     test_slplanner_demo_by_clcbsbenchmark.launch
+
     test_slplanner_demo_by_tmpmap.launch
 
 
@@ -74,3 +82,4 @@ Our project refers to the following work, and we point out their contributions h
 [motion_primitive_library](https://github.com/sikang/motion_primitive_library.git)
 
 [mpl_ros](https://github.com/sikang/mpl_ros.git)
+
