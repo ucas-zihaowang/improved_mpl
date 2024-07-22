@@ -14,7 +14,7 @@ To improve the computational efficiency of this method, we focus on the motion p
 
 ## Version
 
-- [Stable Version] This is a stable version, but may exists bugs. If you find them, please contacts authots by emails: wangzihao191@mails.ucas.edu.cn
+- [Stable Version] This is a stable version, but may exists bugs. If you find them, please contacts the author by emails: wangzihao191@mails.ucas.edu.cn
 
 ## Installation
 
