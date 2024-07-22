@@ -68,11 +68,11 @@ roslaunch slplanner_plus test_slplanner_demo_by_corridor_with_yaw_penalty.launch
 
 experiment_demo: can visualize the instances by rviz
 
-slplanner_plus: different map
-
-    test_slplanner_demo_by_clcbsbenchmark.launch
-
-    test_slplanner_demo_by_tmpmap.launch
+slplanner_plus: for different map
+```
+roslaunch slplanner_plus test_slplanner_demo_by_clcbsbenchmark.launch
+roslaunch slplanner_plus test_slplanner_demo_by_tmpmap.launch
+```
 
 
 ## Acknowledgment
