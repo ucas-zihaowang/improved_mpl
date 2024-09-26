@@ -1,5 +1,7 @@
 # improved_mpl
 
+Improved Search-Based Quadrotors Motion Planning with Motion Primitives
+
 ## Abstract
 
 Search-based motion planning with motion primitives is a complete and optimal method, and it can generate dynamically feasible, collision-free, smooth trajectories in dense environments. 
